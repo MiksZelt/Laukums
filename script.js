@@ -43,16 +43,26 @@ function irTrij(m1, m2, m3) {
     }
 }
 
-function vienadmal(m1, m2, m3) {
+function rezultats() {
     const m = nolasa();
-    if (m1 == m2 && m2 == m3) {
-        return true;
+    m1 = m.m1; m2 = m.m2; m3 = m.m3;
+    console.log(m1, m2, m3);
+    if (!nolasa()) {
+        t = "Nekorekti ievaddati, trijstūra malu vērtībām ir jābūt lielākām par 0."
     } else {
-        return false;
+        if (irTtrij(m1, m2, m3) == false) {
+            t = "Trijtūris neeksistē";
+        } else {
+            t = "Trijstūris ar malu garumiem" + m1 + "," + m2 + "," + m3 + " eksistē."
+            if (m1 == m2 && m2 == m3) {
+                t += "Vienādmalu trijstūris."
+            } else {
+                if (m1 == m2 || m2 == m3 || m1 == m3) {
+                    t += "Tas ir vienādsānu trijstūris."
+                }
+            }
+        }
     }
 }
 
-function vienadsan(m1, m2, m3) {
-    const m = nolasa();
 
-}

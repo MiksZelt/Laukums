@@ -4,8 +4,13 @@ background-color: #b1ccf2
 
 h1{
     text-align: justify;
+    color: #78182e;
 }
 
 text {
     text-align: justify;
+}
+
+img{
+    width:200px
 }

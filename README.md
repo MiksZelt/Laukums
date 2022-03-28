@@ -1,1 +1,1 @@
-Laukuma kalkulators - file:///C:/Users/12b/Documents/GitHub/Laukums/index.html
+Laukuma kalkulators -  https://mikszelt.github.io/Laukums/
